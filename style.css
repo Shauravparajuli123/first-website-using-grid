@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  min-width: 600px;
+}
+
+:root {
+  --base-Color: #1E293B;
+}
+
+header {
+  background-color: var(--base-Color);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 9px 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding-left: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+main {
+  padding: 0 20px;
+}
+
+.dis-section {
+  background-color: var(--base-Color);
+  padding: 0 10px;
+  color: white;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  height: 210px;
+}
+
+.dis-info {
+  justify-self: center;
+  line-height: 2rem;
+  padding-top: 25px;
+}
+
+
+
+form input {
+  width: 70%;
+  padding: 2px 12px;
+
+}
+
+form input:focus {
+  outline: 2px solid rgb(202, 15, 46);
+}
+
+form button {
+  border: none;
+  padding: 3px 5px;
+}
+
+button:hover {
+  background-color: black;
+  color: red;
+}
+
+.dis-img img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.bigbx {
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.item {
+  margin-top: 120px;
+}
+
+.item p {
+  margin-top: 20px;
+}
+
+.card {
+  margin: 20px;
+
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.box {
+  background-color: #14326d;
+  height: 1fr;
+  border-radius: 7px;
+}
+
+.roundimg {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 0.3fr 1fr;
+
+  padding: 10px;
+
+
+}
+
+.roundimg img {
+  border-radius: 100%;
+
+}
+
+.roundimg h5 {
+  padding: 10px;
+}
+
+.box p {
+  padding-left: 10px;
+}
+
+.item i {
+  padding-left: 100px;
+  padding-bottom: 40px;
+}
